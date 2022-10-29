@@ -4,7 +4,6 @@ import Header from '../../navigation/header/Header';
 
 export interface IPrimaryLayout {
     children: React.ReactNode;
-    title: string;
 }
 
 const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => {
